@@ -15,7 +15,7 @@ COPY . .
 RUN go build -o main .
 
 # Etapa de execução
-FROM golang:1.19-bullseye
+FROM golang:1.23-bullseye
 
 # Defina o diretório de trabalho
 WORKDIR /app
